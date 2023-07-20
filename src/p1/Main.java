@@ -9,6 +9,16 @@ public class Main {
                 
                 """);
         int choice = scn.nextInt();
+        if(true) {
+            int a = scn.nextInt();
+            int b = scn.nextInt();
+            System.out.println(a + b);
+        }else {
+            int a = scn.nextInt();
+            int b = scn.nextInt();
+            System.out.println(a - b);
+        }
+
 
 
 
