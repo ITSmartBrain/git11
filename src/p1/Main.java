@@ -6,14 +6,16 @@ public class Main {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("""
-                
+                1. Сложить
+                2. Вычесть
                 """);
         int choice = scn.nextInt();
-        if(true) {
+        if(choice == 1){
             int a = scn.nextInt();
             int b = scn.nextInt();
             System.out.println(a + b);
-        }else {
+        }
+        else if(choice == 2){
             int a = scn.nextInt();
             int b = scn.nextInt();
             System.out.println(a - b);
