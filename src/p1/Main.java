@@ -17,10 +17,14 @@ public class Main {
             System.out.println(a + b);
         }
         else if(choice == 2){
-
+            int a = scn.nextInt();
+            int b = scn.nextInt();
+            System.out.println(a-b);
         }
         else if(choice == 3){
-
+            int a = scn.nextInt();
+            int b = scn.nextInt();
+            System.out.println(a*b);
         }
         else{
             System.out.println("Неверный выбор");
