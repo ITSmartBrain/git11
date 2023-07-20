@@ -7,7 +7,7 @@ public class Main {
         Scanner scn = new Scanner(System.in);
         System.out.println("""
                 1. Сложить
-                2. Вчесть
+                2. Вычесть
                 """);
         int choice = scn.nextInt();
         if(choice == 1){
@@ -18,7 +18,7 @@ public class Main {
         else if(choice == 2){
             int a = scn.nextInt();
             int b = scn.nextInt();
-            System.out.println(a * b);
+            System.out.println(a - b);
         }
 
 
