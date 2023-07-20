@@ -7,7 +7,7 @@ public class Main {
         Scanner scn = new Scanner(System.in);
         System.out.println("""
                 1. Сложить
-                2. Вычесть
+                2. Вчесть
                 """);
         int choice = scn.nextInt();
         if(choice == 1){
